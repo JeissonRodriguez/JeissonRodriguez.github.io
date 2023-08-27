@@ -1,0 +1,337 @@
+*{
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #999;
+}
+
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+
+
+}
+
+.form__container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center ;
+	align-items: center;
+
+
+
+	height: 90vh;
+	width: 39%;
+	background-color: #fff;
+
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+
+
+}
+
+
+
+
+		/* HEADER */
+
+.titulo {
+	font-size: 25px;
+
+}
+
+.sub1{
+	margin-bottom: 20px;
+	font-weight: 200;
+}
+
+
+
+/* INPUTS */
+
+.inputs{
+
+	display: flex;
+	flex-direction: column;
+}
+
+
+.usuarioInput, .contraseñaInput {
+	width: 328px;
+	outline: none;
+	border: 2px solid #cfcfcf;
+	border-radius: 5px;
+
+
+}
+
+
+.usuarioInput:focus, .contraseñaInput:focus {
+	border: 2px solid#2477f5;
+	
+
+}
+
+
+.sub2{
+
+	 margin-bottom: 3px;
+}
+
+.sub2B{
+
+	 margin-bottom: 3px;
+	 margin-top: 11px;
+}
+
+
+
+
+.recuerdame{
+	display: flex;
+	width: 327px;
+	justify-content: space-between;
+	margin-top: 12px;
+	margin-bottom: 12px;
+
+
+}
+
+
+
+.recuerdameB{
+	margin-right: auto;
+	margin-left: 5px;
+
+}
+
+
+.recuerdameA, .recuerdameC{
+	font-size: 12px;
+	text-decoration: none;
+	
+}
+
+
+.recuerdameC{
+	text-decoration: none;
+	color: #3d8bff;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+.sub3{
+	margin-top: 21px;
+	font-weight: 700;
+}
+
+.login, .TWITTER, .FACEBOOK, .GOOGLE{
+
+	padding: 6px 0;
+	border: none;
+	border-radius: 6px;
+	width: 329px;
+	color: #fff;
+	background-color: #000;
+	font-size: 11px;
+	margin-top: 7px;
+	font-weight: 700;
+	
+}
+
+
+
+.GOOGLE{
+	border: 1px solid #cfcfcf;
+	background-color: #fcf7f7;
+	color: #000;
+}
+
+
+.FACEBOOK{
+
+	background-color: #0869e7;
+}
+
+.TWITTER{
+
+	background-color: #1D9BF0;
+
+}
+
+
+.login:hover, .GOOGLE:hover, .FACEBOOK:hover, .TWITTER:hover{
+	opacity: 0.8;
+}
+
+.GOOGLE:hover{
+	opacity: 0.6;
+	
+}
+
+
+
+
+
+
+.b {
+	
+	height: 90vh;
+	width: 39%;
+	background-color: #000;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+@media screen and (max-width: 970px){
+
+
+.form__container{
+
+	width: 50%;
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 725px){
+
+.form__container{
+
+	width: 85%;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+
+
+}
+
+.b {
+	display: none;
+
+
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 431px){
+
+.form__container{
+
+	width: 95%;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.b {
+	display: none;
+
+
+}
+
+
+}
+
+
+
+@media screen and (max-width: 368px){
+
+.recuerdame{
+
+	width: 255px;
+
+}
+
+.usuarioInput, .contraseñaInput {
+	width: 255px;
+
+
+}
+
+.login, .TWITTER, .FACEBOOK, .GOOGLE{
+
+	width: 255px;
+	
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
